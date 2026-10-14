@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 load_dotenv()
 
 # Configuration from .env
-TOKEN = os.getenv('TOKEN', 'MTU1MTY0NzA0MTM4MDI4NjUyNQ.GyR03a.Fyop3Ph8u5mv61gpbOG00nN5FoAN7xv3OoQo9U')
+TOKEN = os.getenv('TOKEN', 'MTU1MTY0NzA0MTM4MDI4NjUyNQ.G_KH_4.6F2i1fHjU9HcwOUKJ3Ea7RTUAvJzYamY5E-_eg')
 ADMIN_ID = int(os.getenv('ADMIN_ID', 1320732831424450561))  # Admin user ID for checks
 BOT_STATUS_NAME = os.getenv('BOT_STATUS_NAME', 'UnixNodes')
 WATERMARK = os.getenv('WATERMARK', 'Powered by UnixNodes VPS Bot')
